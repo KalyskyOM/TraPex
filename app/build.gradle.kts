@@ -48,7 +48,7 @@ android {
     }
     
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.4"
+        kotlinCompilerExtensionVersion = libs.versions.composeCompilerExtension.get()
     }
     
     packaging {
@@ -88,7 +88,7 @@ dependencies {
     implementation(libs.camera.view)
     
     // ML Kit for text recognition
-    implementation(libs.mlkit.text.recognition)
+    implementation(libs.mlkitTextRecognition)
     
     // Accompanist for permissions
     implementation(libs.accompanist.permissions)
