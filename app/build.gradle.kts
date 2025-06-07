@@ -88,7 +88,7 @@ dependencies {
     implementation(libs.camera.view)
     
     // ML Kit for text recognition
-    implementation(libs.mlkitTextRecognition)
+    implementation(libs.mlkit.text.recognition)
     
     // Accompanist for permissions
     implementation(libs.accompanist.permissions)
